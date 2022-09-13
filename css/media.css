@@ -1,0 +1,128 @@
+@media screen and (max-width: 1200px){
+    .container{
+        width: 1140px;
+    }
+}
+@media screen and (max-width: 1199px){
+    .container{
+        width: 960px;
+    }
+    
+}
+@media screen and (max-width:  991px){
+    .container{
+        width: 795px;
+    }
+}
+@media screen and  (max-width: 767px) {
+    .container{
+        width: 540px;
+    }
+    .input {
+        padding: 21px 90px 19px 58px;
+        box-shadow: var(--main-box-shadow);
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+    .flag-republik-two {
+        display: flex;
+        justify-content: center;
+
+        margin-right: 75px;
+        flex-wrap: wrap;
+    }
+    .imput-serch::after {
+        content: "";
+        display: block;
+        background-image: var(--main-search);
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        top: 50%;
+        left: 25px;
+        transform: translateY(-50%);
+        width: 18px;
+        height: 18px;
+    }
+    .custom-select select {
+        padding: 19px 50px 18px 15px;
+        box-shadow: var(--main-box-shadow);
+        border-radius: 5px;
+        background-color: var(--main-white);
+        border: 0;
+        -webkit-appearance: none;
+        appearance: none;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: var(--main-black);
+    }
+}
+
+@media screen and (max-width: 575px){
+    .container{
+        width: 100%;
+        padding: 0 25px; 
+    }
+    .flag-title{
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 20px;
+        
+        color: var(--main-black);
+    }
+    .fllag-night{
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+
+        color: var(--main-black);
+    }
+    
+    .night-icon__img {
+        width: 12px;
+        height: 11px;
+        margin-right: 8px;
+    }
+    .imput-serch{
+        position: relative;
+    }
+    .imput-serch::after{
+        content: "";
+        display: block;
+        background-image: url(../img/icon-search-black.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        top: 26%;
+        left: 34px;
+        transform: translateY(-50%);
+        width: 18px;
+        height: 18px;
+    }
+    
+    .search{
+        flex-wrap: wrap;
+        
+    }
+    .input{
+        margin-bottom: 40px;
+        padding: 14px 125px 14px 74px;
+    }
+    .custom-select select{
+        padding: 14px 91px 14px 24px;
+    }
+    .flag-republik-two{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 391px){
+    .container{
+        width: 100%;
+        padding: 0 25px; 
+    }
+    .input{
+        width: 100%;
+    }
+}
